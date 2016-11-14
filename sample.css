@@ -1,0 +1,180 @@
+/*-----------------------------------------------------------------------------------*/
+/*  - LP用レスポンシブスタイル
+/*-----------------------------------------------------------------------------------*/
+
+#responsiveLP_topBtn{
+	padding: 0 2.1%;
+}
+.responsiveLP_mt40{
+	margin-top: 40px;
+}
+.responsiveLP_mb40{
+	margin-bottom: 40px;
+}
+.responsiveLP_mb0{
+	margin-bottom: 0px;
+}
+.responsiveLP_w300{
+	width: 300px;
+}
+.responsiveLP_bgWarmgrayBox {
+	overflow: hidden;
+	padding: 0 20px;
+}
+.responsiveLP_bgWarmgray{
+	background-color: #f2f1eb;
+}
+.responsiveLP_flex{
+	display: flex;
+	justify-content: center;
+}
+.responsiveLP_flexBtn {
+	width: 420px;
+	line-height: 55px;
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	background: linear-gradient(to bottom, #d5a707, #c29702);
+	cursor: pointer;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+	margin: 10px 40px;
+}
+.responsiveLP_flexBtn:hover {
+	background: linear-gradient(to bottom, #c29702, #d5a707);
+	text-decoration: none;
+}
+.responsiveLP_flexBtn2 {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 58px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	color: #264a7f;
+	border: #d6e0ec 2px solid;
+	border-radius: 50px;
+	background: #fff;
+	margin: 10px;
+	line-height: 1.7;
+	padding: 10px 40px 10px 10px;
+	position: relative;
+}
+.responsiveLP_flexBtn2::before{
+	content: "";
+	background-image: url(https://biz.moneyforward.com/payroll/information/wp-content/uploads/2016/11/change_campaign_icon_arrow.png);
+	width: 16px;
+	height: 25px;
+	position: absolute;
+	top: 25px;
+	right: 19px;
+}
+.responsiveLP_flexBtn2:hover {
+	text-decoration: underline;
+}
+.responsiveLP_stackBox {
+	width: auto;
+	margin-bottom:40px;
+	align-items: center;
+}
+.responsiveLP_stackBoxThumb{
+	width: 30%;
+	margin-right: 24px;
+}
+.responsiveLP_stackBoxContent{
+	width: 70%;
+}
+.responsiveLP_stackBoxTitle{
+	font-weight: bold;
+font-size: 19px;
+	margin-bottom: 5px;
+}
+.responsiveLP_stackBoxText{
+	font-size: 15px;
+}
+.responsiveLP_costBox {
+display: flex;
+justify-content: space-between;
+}
+.responsiveLP_costContent{
+	margin-top: 20px;
+}
+.responsiveLP_Headline2 {
+	font-size: 30px !important;
+	line-height: 1.6 !important;
+	margin-bottom: 0px;
+	text-align: center !important;
+	color: #5176ae !important;
+	border: none !important;
+	font-weight: bold !important;
+}
+.responsiveLP_Headline3 {
+	border: none !important;
+	text-align: center !important;
+	margin: 0 !important;
+}
+.responsiveLP_stepText {
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+color: #5176ae;
+}
+.responsiveLP_meritBtnTextSmall {
+	display: block;
+	font-size: 14px;
+}
+.responsiveLP_overviewTitle {
+	font-weight: bold;
+}
+
+.responsiveLP_contentLinkText {
+	text-align: right !important;
+	font-weight: bold !important;
+	text-decoration: underline;
+}
+@media screen and (max-width: 1280px) {
+	.responsiveLP_flexBtn2{
+		font-size: 15px;
+	}
+	.responsiveLP_meritBtnTextSmall{
+		font-size: 12px;
+	}
+	.responsiveLP_flexBtn2::before{
+		top: 20px;
+	}
+	.responsiveLP_costContent{
+		margin: 10px;
+	}
+}
+.responsiveLP_campaignLimitBox {
+	padding: 20px;
+	border: 1px solid #333333;
+}
+@media screen and (max-width: 960px) {
+	.responsiveLP_flexBtn {
+		line-height: 1.5;
+		padding: 10px 0px;
+		width: 100%;
+		margin: 10px;
+	}
+	.responsiveLP_costBox {
+		display: block;
+		margin: 0 auto;
+	}
+	.responsiveLP_costContent {
+		margin-bottom: 25px;
+	}
+	.responsiveLP_flexBtn2{
+		font-size: 15px;
+		border-radius: 10px;
+		padding: 10px;
+	}
+	.responsiveLP_flexBtn2::before{
+		content: none;
+		top: 20px;
+	}
+}
